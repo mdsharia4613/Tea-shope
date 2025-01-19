@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Font-Awesome -->
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,9 +24,34 @@
           }
 
         }
-      </script>
+    </script>
 </head>
-<body>
-    
+<body class="max-w-screen-2xl mx-auto px-16 lg:px-28">
+   <header >
+        <div class="lg:flex justify-between items-center font-semibold">
+            <div>
+                <h1 class="text-7xl my-4">It's good <br>tea time at the <br>Tea House</h1>
+                <p class="text-xl text-gray-400 my-3 w-1/2">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-400 to bg-red-600 p-3 rounded-xl text-white my-5">Explore More <i class="fa-solid fa-arrow-right -rotate-45 ml-1"></i></button>
+            </div>
+            <div class="relative">
+               <div>
+                    <img src="images/banner.png" alt="">
+               </div>
+               <div class="absolute flex md:justify-center items-center gap-2 shadow-2xl bg-white px-2 py-2 md:px-10 lg:py-4 rounded-xl top-28 md:top-80 md:left-32 bottom-8">
+                   <div>
+                        <i class="fa-solid fa-star text-yellow-400"></i>  
+                   </div>
+                   <div>
+                        <h2 class="text-xl font-bold">5.00</h2>
+                        <p class="text-[16px] text-gray-400">Trust pilot Rating</p>
+                   </div> 
+               </div>
+            </div>
+        </div>   
+   </header>
+   <main>
+
+   </main> 
 </body>
 </html>
